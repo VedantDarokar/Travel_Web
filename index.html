@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel With Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h2>TravelX</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#">Gallary</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#registration">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Explore the World</h1>
+            <p>Find your next adventure with us. Your dream destination awaits!</p>
+            <a href="#registration" class="cta-btn">Join Now</a>
+        </div>
+    </section>
+
+
+    <!--Our Gallary-->
+
+    <section class="gallery-heading">
+      <h2>Our Gallery</h2>
+    </section>
+
+  <section class="card-container">
+      <div class="card">
+          <div class="card-image">
+              <img src="/Eiffel Tower.jpg" alt="Image 1">
+              <div class="overlay">
+                  <p>Eiffel Tower</p>
+              </div>
+          </div>
+      </div>
+      <div class="card">
+          <div class="card-image">
+              <img src="/Colosseum.jpg" alt="Image 2">
+              <div class="overlay">
+                  <p>Colosseum</p>
+              </div>
+          </div>
+      </div>
+      <div class="card">
+          <div class="card-image">
+              <img src="/Buckingham Palace.jpg" alt="Image 3">
+              <div class="overlay">
+                  <p>Buckingham Palace</p>
+              </div>
+          </div>
+      </div>
+  </section>
+<!--Registration_Form-->
+
+<section class="Registration">
+  <h1 class="text1">Register here !!!</h1>
+  <form>
+    <lable>Full name*:</lable>
+    <br>
+    <input type="text" placeholder="Enter your Full name" required style="margin-top: 10px;margin-bottom: 7px;">
+    <br>
+    <lable>Email Address*:</lable>
+    <br>
+    <input type="email" placeholder="Enter your email" required style="margin-top: 10px;margin-bottom: 7px;">
+    <br>
+    <lable>Contact no*:</lable>
+    <br>
+    <input type="tel" placeholder="enter your contact number" style="margin-top: 10px;margin-bottom: 7px;">
+    <br>
+    <lable>Date of Birth*:</lable>
+    <br>
+    <input type="date" required style="margin-top: 10px;margin-bottom: 7px;">
+    <br>
+    <lable>Gender*:</lable>
+    
+    <select name="Field" required style="margin-top: 10px;margin-bottom: 7px;">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+    </select>
+    <lable>Blood Group*:</lable>
+    <select name="Field" required style="margin-top: 10px;margin-bottom: 7px;">
+        <option value="">O+ve</option>
+        <option value="">O-ve</option>
+        <option value="">A+ve</option>
+        <option value="">A-ve</option>
+        <option value="">B+ve</option>
+        <option value="">B-ve</option>
+        <option value="">AB+ve</option>
+        <option value="">AB-ve</option>
+    </select>
+    
+    <label>Requrid Guide*:</label>
+    <br>
+    <input type="radio">
+    <lable>Yes</lable>
+    <br>
+    <input type="radio">
+    <lable>No</lable>
+    <br>
+    <label>Any specific medical issues:</label>
+    <br>
+    <input type="text" placeholder="Tell if there">
+    <br> 
+    <label style="margin-top: 15px;">Terms & Condition*:</label>
+    <br>
+    <input type="radio" name="t&c" value="b1">
+    <lable>I agree</lable>
+    <input type="radio" name="t&c" value="b2">
+    <lable>I disagree</lable>
+    <br>
+    <div class="button" style="display: flex; flex-direction: row;justify-content: space-between;">
+      <div class="btn1"><button type="submit">Complete Registration</button></div>
+    </div> 
+</form>
+<div class="footer"></div>
+</section>
